@@ -59,27 +59,3 @@ function getRandomeInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
 }
 
-/*function handleItemForm (event, formRef) {
-    if(event.preventDefault) {
-        event.preventDefault();
-    }
-
-    addItemToShoppingList();
-    return false;
-}
-
-function addItemToShoppingList() {
-    let itemName = document.getElementById("item-name");
-    let itemAmount = document.getElementById("item-amount");
-
-    let itemHtml = createListItemHtml();
-    console.log("Item HTML: ", itemHtml);
-    let itemListRef = document.getElementById("shopping-list");
-    itemListRef.insertAdjacentHTML("afterend", itemHtml);
-}
-
-function createListItemHtml() {
-    return '<li>Item Name - Amount </li>';
-}
-
- */
